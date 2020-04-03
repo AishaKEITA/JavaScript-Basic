@@ -39,6 +39,13 @@ console.log(timeleft);
 
 //A user types in the values of a and b for the formula a * x + b = 0 . The program has to calculate the x and display it in the console.
 
-let value = prompt('Enter a and b for formula a * x + b = 0');
-let x = value;
+// let value = prompt('Enter a and b for formula a * x + b = 0');
+// let x = value;
+// console.log(x);
+
+// note! you need + infront of prompt to turn the string to a number
+let a = +prompt ('Enter a');
+let b = +prompt ('Enter b');
+let x = -b / a;
 console.log(x);
+
