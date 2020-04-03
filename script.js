@@ -28,7 +28,7 @@ console.log(exchange_rate);
 //Request current time from a user in format HH:mm (HH is hour in a day from 00 to 23, mm are minutes in hour) and display how many hours and minutes are left until tomorrow.
 
 // let time = prompt('Enter current time in format HH:mm');
-let time = '21:45';
+// let time = '21:45';
 console.log(time);
 let hour = time.split(":")[0];
 let minute = time.split(":")[1];
